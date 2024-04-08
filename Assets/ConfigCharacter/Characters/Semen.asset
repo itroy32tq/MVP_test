@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fef41b79f66b9524f82589e2439b6158, type: 3}
-  m_Name: Chcracter_1
+  m_Name: Semen
   m_EditorClassIdentifier: 
-  _name: Hero
-  _health: 5
+  _name: Semen
+  _health: 15

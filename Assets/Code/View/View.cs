@@ -18,6 +18,12 @@ public class View : MonoBehaviour
         _healthSlider.value = characterPresenter.Health;
         _button.onClick.RemoveAllListeners();
         _button.onClick.AddListener(GetDealDamage);
+        _characterPresenter.CharacterUpdated += UpdateData;
+    }
+
+    void UpdateData() {        
+        _nameText.text = _characterPresenter.Name;
+        _healthSlider.value = _characterPresenter.Health;        
     }
 
     private void GetDealDamage()
